@@ -1,0 +1,27 @@
+{
+    "name": "faveo/installer",
+    "description": "Common Installer From Faveo",
+    "autoload": {
+        "classmap": [
+            "Database/seeders",
+            "Database/factories"
+        ],
+        "psr-4": {
+            "Faveo\\Installer\\": "Faveo/Installer/src/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faveo\\Installer\\": "Faveo/Installer/src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hitesh Kumar",
+            "email": "hitesh.kumar@ladybirdweb.com"
+        }
+    ],
+    "require": {}
+}
